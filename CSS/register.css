@@ -1,0 +1,42 @@
+#bg{
+    background: url("https://images4.alphacoders.com/658/658575.jpg")   ; 
+    background-size: cover;
+    
+
+
+    width: 99%;
+    position: absolute;
+    right: 0.5%;
+    height: 98%;
+    border: 2%  solid white;
+    z-index: -1;
+}
+#register{
+    height: 85%;
+    width: 80%;
+    border: 5px solid rgb(133,143, 14);
+    margin-left: 10% ;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    margin-right: 10%;
+
+}
+    
+
+#whitebg{
+    height: 99%;
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 0%;
+    margin-bottom:0%;   
+    margin-right: 32.5;
+    background: white;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    text-align: center;
+}
+form{
+    text-align: center;
+}

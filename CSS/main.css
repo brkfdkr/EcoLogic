@@ -1,0 +1,163 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+/*For Navbar, Ref: https://www.youtube.com/watch?v=6HFpw5fcaD8 */
+header{
+    position: fixed;
+    height: 10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 10000;
+    background-color: whitesmoke;
+}
+header .logo{
+    position: relative;
+
+    color:black;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;
+
+}
+header img{
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 14%;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+
+
+}
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("https://i.hizliresim.com/hccrky6.jpg");
+    background-size: cover;
+
+    color: white;
+}
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    /*Ref: https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
+  }
+section {
+    height: 100vh; 
+    display: flex;
+    scroll-snap-align: start;
+    padding: 7%;
+}
+
+.container1{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+.one1{
+    background: url("https://i.hizliresim.com/hccrky6.jpg");
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.two1{
+    background: whitesmoke;
+    border: 5px solid rgb(133,143, 14);
+    margin-left: 5% ;
+    margin-top: 0%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+
+
+}
+
+.three1{
+    background: rgb(133,143, 14);
+    background-size: cover;
+    justify-content: none;
+    color: none;
+    background-image: none;
+
+    
+}
+
+.container2{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+
+.shopping{
+    height: 200vh;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.donate {
+    background: rgb(133,143, 14);
+    background-size: 200% 100%;
+    border-radius: 4px;
+}
+.checkout-page{
+    background: whitesmoke;
+    border: 10px solid rgb(133,143, 14);
+    margin-left: 2% ;
+    margin-top: 7%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    height: 60vh;
+    
+}
+.checkout-page .head{
+    margin-left: 2% ;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+

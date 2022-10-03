@@ -1,0 +1,48 @@
+#Login{
+    height: 85%;
+    width: 80%;
+    border: 5px solid rgb(133,143, 14);
+    margin-left: 10% ;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    margin-right: 10%
+    
+    
+}
+
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#leftHalf {
+    background: white       ;
+    width: 35%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+#rightHalf {
+    background: url("https://images4.alphacoders.com/658/658575.jpg")   ; 
+    background-size: cover;
+
+
+    width: 65%;
+    position: absolute;
+    right: 0.5%;
+    height: 98%;
+    border: 2% solid white !important; 
+    
+}
+
+h2 {
+    text-align: center;
+}
+form {
+    text-align: none;
+}
